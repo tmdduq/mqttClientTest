@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/init"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="연결"
+        app:backgroundTint="#8A2020"
+        app:layout_anchorGravity="center" />
+
+    <EditText
+        android:id="@+id/topicText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testtopic/#"
+        app:layout_anchorGravity="center" />
+
+
+    <Button
+        android:id="@+id/topicAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토픽 추가"
+        app:layout_anchorGravity="center" />
+
+    <EditText
+        android:id="@+id/sendText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abcd"
+        app:layout_anchorGravity="center" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메시지 전송"
+        app:layout_anchorGravity="center" />
+
+    <TextView
+        android:id="@+id/textLog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="-- -- --"
+        app:layout_anchorGravity="center" />
+
+</LinearLayout>
